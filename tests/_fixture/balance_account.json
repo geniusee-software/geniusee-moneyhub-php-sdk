@@ -1,0 +1,15 @@
+{
+  "data": {
+    "amount": {
+      "value": 1,
+      "currency": "GBP"
+    },
+    "date": "2022-02-14"
+  },
+  "meta": {
+    "correlationId": "4397c923"
+  },
+  "links": {
+    "self": "https://api.moneyhub.co.uk2"
+  }
+}

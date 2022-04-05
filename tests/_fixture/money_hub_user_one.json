@@ -1,0 +1,14 @@
+{
+  "connectionIds": [],
+  "deletedAt": null,
+  "lastAccessed": "2022-02-10T18:28:12.624Z",
+  "userId": "62052d078",
+  "clientUserId": "28cdfbf5-1123",
+  "clientId": "ee9cbaf7-123",
+  "createdAt": "2022-02-10T15:19:35.454Z",
+  "updatedAt": "2022-02-10T15:19:35.454Z",
+  "scopes": "user:create",
+  "managedBy": "client",
+  "userType": "test",
+  "clientName": "test"
+}

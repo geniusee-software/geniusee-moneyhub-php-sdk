@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "connectionIds": [],
+      "deletedAt": null,
+      "lastAccessed": "2022-02-10T18:28:12.624Z",
+      "userId": "62052d078",
+      "clientUserId": "28cdfbf5-1123",
+      "clientId": "ee9cbaf7-123",
+      "createdAt": "2022-02-10T15:19:35.454Z",
+      "updatedAt": "2022-02-10T15:19:35.454Z",
+      "scopes": "user:create",
+      "managedBy": "client",
+      "userType": "test",
+      "clientName": "test"
+    },
+    {
+      "connectionIds": [
+        "1ffe704d39629a:5ca52722-e634-4",
+        "527:7f7af527-8a",
+        "527:da653cc4-"
+      ],
+      "deletedAt": null,
+      "lastAccessed": "2022-02-10T18:16:28.033Z",
+      "userId": "62052c",
+      "clientUserId": "d0ddf700-6",
+      "clientId": "bf9d5351272d",
+      "createdAt": "2022-02-10T15:17:04.122Z",
+      "updatedAt": "2022-02-10T15:17:04.122Z",
+      "scopes": "user:create",
+      "managedBy": "client",
+      "userType": "test",
+      "clientName": "test"
+    }
+  ],
+  "meta": {
+    "total": 2,
+    "limit": 1000,
+    "offset": 0
+  }
+}

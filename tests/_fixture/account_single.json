@@ -1,0 +1,29 @@
+{
+  "data": [{
+    "id": "aeb61e44",
+    "dateAdded": "2022-02-12T11:59:40.043Z",
+    "dateModified": "2022-02-12T11:59:40.043Z",
+    "accountName": "1",
+    "type": "cash:current",
+    "accountType": "account_type",
+    "providerName": "provider_name",
+    "providerId": "API",
+    "providerReference": "api",
+    "connectionId": "API",
+    "balance": {
+      "amount": {
+        "value": 2,
+        "currency": "GBP"
+      },
+      "date": "2022-02-12"
+    },
+    "currency": "GBP",
+    "details": {}
+  }],
+  "meta": {
+    "correlationId": "9bd46a14-f0dd"
+  },
+  "links": {
+    "self": "https://api.moneyhub.co.uk/v2.0/accounts"
+  }
+}

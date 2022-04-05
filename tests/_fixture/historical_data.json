@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "date": "2022-01-10",
+      "amount": {
+        "value": 3609584,
+        "currency": "GBP"
+      }
+    },
+    {
+      "date": "2022-01-11",
+      "amount": {
+        "value": 3609684,
+        "currency": "GBP"
+      }
+    }
+  ],
+  "meta": {
+    "correlationId": "32149136-0a3a-4aed-9db2-2ec94fbfd107"
+  },
+  "links": {
+    "self": "https://api.moneyhub.co.uk/v2.0/accounts/464b6419-bb04-487b-a9e6-3421baa48304/balances"
+  }
+}
