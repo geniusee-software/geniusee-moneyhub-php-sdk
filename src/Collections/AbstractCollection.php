@@ -33,7 +33,7 @@ abstract class AbstractCollection implements Iterator
 
     final public function first(): mixed
     {
-        return Arr::first($this->get());
+        return Arr::first($this->items);
     }
 
     /**
@@ -52,21 +52,18 @@ abstract class AbstractCollection implements Iterator
 
     final public function where(callable $callback): array
     {
-        $getUsers = $this->get();
-
         if (!$callback instanceof Closure) {
-            return $getUsers;
+            return $this->items;
         }
 
-        return array_filter($getUsers, $callback);
+        return array_filter($this->items, $callback);
     }
 
     final public function map(callable $callback): array
     {
-        $getUsers = $this->get();
-        $keys = array_keys($getUsers);
+        $keys = array_keys($this->items);
 
-        return array_map($callback, $getUsers, $keys);
+        return array_map($callback, $this->items, $keys);
     }
 
     final public function rewind(): void
