@@ -21,6 +21,7 @@ use Geniusee\MoneyHubSdk\Transactions\Transactions;
 use Geniusee\MoneyHubSdk\Users\Users;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
+
 use function is_readable;
 
 final class MoneyHubFactory

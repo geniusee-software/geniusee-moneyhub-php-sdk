@@ -43,7 +43,7 @@ final class Taxes
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', self::TAXES_URL, ),
+            new Request('GET', self::TAXES_URL),
             $this->prepareRequestOptions(
                 $userId,
                 array_filter([

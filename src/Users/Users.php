@@ -63,7 +63,7 @@ final class Users
     public function all(): UsersCollection
     {
         $response = $this->apiClient->send(
-            new Request('GET', self::USERS_PATH, ),
+            new Request('GET', self::USERS_PATH),
             $this->prepareRequestOptions()
         );
 
@@ -78,7 +78,7 @@ final class Users
     public function one(string $moneyHubUserId): User
     {
         $response = $this->apiClient->send(
-            new Request('GET', self::USERS_PATH . '/' . $moneyHubUserId, ),
+            new Request('GET', self::USERS_PATH . '/' . $moneyHubUserId),
             $this->prepareRequestOptions()
         );
 
@@ -116,7 +116,7 @@ final class Users
         }
 
         $response = $this->apiClient->send(
-            new Request('DELETE', self::USERS_PATH . '/' . $moneyHubUserId, ),
+            new Request('DELETE', self::USERS_PATH . '/' . $moneyHubUserId),
             $this->prepareRequestOptions()
         );
 

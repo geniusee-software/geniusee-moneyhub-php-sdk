@@ -17,7 +17,7 @@ final class TransactionCreateRules
                 'accountId' => [new NotBlank(), new Type('string')],
                 'amount' => new Collection(
                     [
-                        'value' => [new NotBlank(),  new Type('integer')],
+                        'value' => [new NotBlank(), new Type('integer')],
                     ]
                 ),
                 'categoryId' => [new NotBlank(), new Type('string')],

@@ -76,7 +76,7 @@ final class Projects
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', self::PROJECT_PATH, ),
+            new Request('GET', self::PROJECT_PATH),
             $this->prepareRequestOptions($userId)
         );
 
@@ -95,7 +95,7 @@ final class Projects
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', self::PROJECT_PATH . '/' . $projectId, ),
+            new Request('GET', self::PROJECT_PATH . '/' . $projectId),
             $this->prepareRequestOptions($userId)
         );
 
@@ -161,7 +161,7 @@ final class Projects
         }
 
         $response = $this->apiClient->send(
-            new Request('DELETE', self::PROJECT_PATH . '/' . $accountId, ),
+            new Request('DELETE', self::PROJECT_PATH . '/' . $accountId),
             $this->prepareRequestOptions($userid)
         );
 

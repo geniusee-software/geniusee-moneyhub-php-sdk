@@ -30,8 +30,8 @@ final class BasicAuth implements Authorization
     }
 
     /**
-     * @throws EmptyScopesException
      * @return $this
+     * @throws EmptyScopesException
      */
     public function withScopes(array $scopes): self
     {

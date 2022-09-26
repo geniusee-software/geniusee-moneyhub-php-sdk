@@ -72,7 +72,7 @@ final class NotificationThresholds
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', sprintf(self::THRESHOLDS_PATH, $accountId), ),
+            new Request('GET', sprintf(self::THRESHOLDS_PATH, $accountId)),
             $this->prepareRequestOptions($userId)
         );
 

@@ -67,9 +67,9 @@ $factory->accounts()->one(string $userId, string $accountId): Account;
 $factory->accounts()->retrieveTheHistoricalBalancesForAnAccount(
         string $userId,
         string $accountId
-    ): AccountBalanceCollection
+    ): AccountBalanceCollection;
     
-$factory->accounts()->updateSingleAccount(string $userId, string $accountId): Account
+$factory->accounts()->updateSingleAccount(string $userId, string $accountId): Account;
 ```
 To add our scopes you can use withScopes method
 ```php
@@ -116,9 +116,9 @@ $factory->transactions()->pathSplitTransaction(
     ): array;
 $factory->transactions()->mergeSplitTransaction(string $userId,string $transactionId): void;
 
-$factory->transactions()->deleteTransactionAttachments(string $userId,string $transactionId,string $fileId): void;
+$factory->transactions()->deleteTransactionAttachments(string $userId,string $transactionId, string $fileId): void;
 
-$factory->transactions()->delete(string $userid, string $transactionId): void
+$factory->transactions()->delete(string $userid, string $transactionId): void;
 ```
 Additional methods
 ```php
@@ -300,7 +300,7 @@ $factory->sync();
 
 ##### Supported functions
 ```php
-$factory->sync()-ЮsyncAnExistingConnection(string $userId, string $connectionId): SyncDto
+$factory->sync()-ЮsyncAnExistingConnection(string $userId, string $connectionId): SyncDto;
 ```
 
 Additional methods

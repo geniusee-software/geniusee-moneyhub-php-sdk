@@ -79,7 +79,7 @@ final class Accounts
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', self::ACCOUNTS_PATH, ),
+            new Request('GET', self::ACCOUNTS_PATH),
             $this->prepareRequestOptions($userId)
         );
 
@@ -98,7 +98,7 @@ final class Accounts
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', self::ACCOUNTS_PATH . '/' . $accountId, ),
+            new Request('GET', self::ACCOUNTS_PATH . '/' . $accountId),
             $this->prepareRequestOptions($userId)
         );
 
@@ -184,7 +184,7 @@ final class Accounts
         }
 
         $response = $this->apiClient->send(
-            new Request('DELETE', self::ACCOUNTS_PATH . '/' . $accountId, ),
+            new Request('DELETE', self::ACCOUNTS_PATH . '/' . $accountId),
             $this->prepareRequestOptions($userid)
         );
 
@@ -209,7 +209,7 @@ final class Accounts
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', self::ACCOUNTS_PATH . '/' . $accountId . '/balances', ),
+            new Request('GET', self::ACCOUNTS_PATH . '/' . $accountId . '/balances'),
             $this->prepareRequestOptions($userId)
         );
 

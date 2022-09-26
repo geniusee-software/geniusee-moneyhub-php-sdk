@@ -1,6 +1,9 @@
 {
-    "name": "geniusee/money-hyb-geniusee-sdk",
+    "name": "geniusee-software/geniusee-moneyhub-php-sdk",
+    "description": "PHP client for the Moneyhub API",
     "type": "library",
+    "keywords": ["moneyhub", "php"],
+    "license": "MIT",
     "authors": [
       {
         "name": "Alexander Bredikhin",

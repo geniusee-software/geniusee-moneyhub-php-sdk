@@ -75,7 +75,7 @@ final class Transactions
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', self::TRANSACTIONS_PATH, ),
+            new Request('GET', self::TRANSACTIONS_PATH),
             $this->prepareRequestOptions($userId)
         );
 
@@ -94,7 +94,7 @@ final class Transactions
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', self::TRANSACTIONS_PATH . $transactionId, ),
+            new Request('GET', self::TRANSACTIONS_PATH . $transactionId),
             $this->prepareRequestOptions($userId)
         );
 
@@ -190,7 +190,7 @@ final class Transactions
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', self::TRANSACTIONS_PATH . $transactionId . '/files', ),
+            new Request('GET', self::TRANSACTIONS_PATH . $transactionId . '/files'),
             $this->prepareRequestOptions($userId)
         );
 
@@ -212,7 +212,7 @@ final class Transactions
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', self::TRANSACTIONS_PATH . $transactionId . '/files/' . $fileId, ),
+            new Request('GET', self::TRANSACTIONS_PATH . $transactionId . '/files/' . $fileId),
             $this->prepareRequestOptions($userId)
         );
 
@@ -236,7 +236,7 @@ final class Transactions
         }
 
         $response = $this->apiClient->send(
-            new Request('GET', self::TRANSACTIONS_PATH . $transactionId . '/splits/', ),
+            new Request('GET', self::TRANSACTIONS_PATH . $transactionId . '/splits/'),
             $this->prepareRequestOptions($userId)
         );
 
@@ -375,7 +375,7 @@ final class Transactions
         }
 
         $response = $this->apiClient->send(
-            new Request('DELETE', self::TRANSACTIONS_PATH . $transactionId . '/files/' . $fileId, ),
+            new Request('DELETE', self::TRANSACTIONS_PATH . $transactionId . '/files/' . $fileId),
             $this->prepareRequestOptions($userId)
         );
 
@@ -398,7 +398,7 @@ final class Transactions
         }
 
         $response = $this->apiClient->send(
-            new Request('DELETE', self::TRANSACTIONS_PATH . $transactionId, ),
+            new Request('DELETE', self::TRANSACTIONS_PATH . $transactionId),
             $this->prepareRequestOptions($userid)
         );
 
