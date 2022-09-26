@@ -25,6 +25,10 @@ following features:
 - Get the regular transactions on an account
 - Get beneficiaries
 
+### Installation
+```text
+composer require geniusee-software/geniusee-moneyhub-php-sdk
+```
 Currently this library supports `client_secret_basic` authentication.</br>
 JSON example for client_secret_basic
 ```json
