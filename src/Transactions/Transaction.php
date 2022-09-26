@@ -12,7 +12,7 @@ final class Transaction implements MoneyHubEntity
      * @psalm-param array{value:int,currency:string} $amount
      * @psalm-param array{uk-tax-hmrc:string|null} $enhancedCategories
      * @psalm-param array{code:string, subCode:string} $transactionCode
-     * @psalm-param array{code:string, issuer?:?string} $proprietaryTransactionCode
+     * @psalm-param array{code:string, issuer?:string|null} $proprietaryTransactionCode
      * @psalm-param array{name:string, pan:string, cardSchemeName:string, authorisationType:string} $cardInstrument
      * @psalm-param array{name:string, sortCode:string, accountNumber:string, iban:string, pan:string} $creditorAccount
      * @psalm-param array{name:string, sortCode:string, iban:string, pan:string, accountNumber:string} $debtorAccount
